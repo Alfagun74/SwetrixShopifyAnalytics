@@ -15,7 +15,9 @@ export default class SwetrixShopwareIntegration extends Plugin {
     script.onload = function () {
       swetrix.init(this.options.projectId);
       swetrix.trackViews();
+      console.log("Swetrix Loaded");
     };
     document.head.appendChild(script);
+    console.log("Swetrix Shopware Integration initialized");
   }
 }
