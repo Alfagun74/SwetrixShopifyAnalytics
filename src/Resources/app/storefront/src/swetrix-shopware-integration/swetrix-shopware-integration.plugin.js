@@ -6,7 +6,7 @@ export default class SwetrixShopwareIntegration extends Plugin {
      * Specifies the Project Id of the Swetrix project.
      * @type string
      */
-    projectId: "Project-Id",
+    projectId: "123456789",
   };
 
   init() {
