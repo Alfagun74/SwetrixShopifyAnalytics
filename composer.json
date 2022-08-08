@@ -1,34 +1,41 @@
 {
-    "name": "swetrix/shopware-integration",
-    "description": "Swetrix Analytics for Shopware",
-    "version": "1.0.0",
-    "type": "shopware-platform-plugin",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Swetrix"
-        },
-        {
-            "name": "Alfagun74"
-        }
-    ],
-    "require": {
-        "shopware/core": "6.4.*"
+  "name": "swetrix/shopware-integration",
+  "description": "Swetrix Analytics for Shopware",
+  "version": "1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Swetrix",
+      "homepage": "https://swetrix.com"
     },
-    "extra": {
-        "shopware-plugin-class": "Swetrix\\ShopwareIntegration\\SwetrixShopwareIntegration",
-        "label": {
-            "de-DE": "Swetrix Analytics für Shopware",
-            "en-GB": "Swetrix Analytics for Shopware"
-        },
-        "description": {
-            "de-DE": "Mit diesem Plugin kannst du Swetrix Analytics in deinen Shop einbinden.",
-            "en-GB": "This Plugin allows you to integrate Swetrix Analytics into your Shop."
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Swetrix\\ShopwareIntegration\\": "src/"
-        }
+    {
+      "name": "Alfagun74",
+      "homepage": "https://github.com/Alfagun74"
     }
+  ],
+  "require": {
+    "shopware/core": "6.4.*"
+  },
+  "extra": {
+    "shopware-plugin-class": "Swetrix\\ShopwareIntegration\\SwetrixShopwareIntegration",
+    "plugin-icon": "src/Resources/config/icon.png",
+    "label": {
+      "de-DE": "Swetrix Analytics für Shopware",
+      "en-GB": "Swetrix Analytics for Shopware"
+    },
+    "description": {
+      "de-DE": "Mit diesem Plugin kannst du Swetrix Analytics in deinen Shop einbinden.",
+      "en-GB": "This Plugin allows you to integrate Swetrix Analytics into your Shop."
+    },
+    "manufacturerLink": {
+      "en-GB": "https://swetrix.com",
+      "de-DE": "https://swetrix.com"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Swetrix\\ShopwareIntegration\\": "src/"
+    }
+  }
 }
