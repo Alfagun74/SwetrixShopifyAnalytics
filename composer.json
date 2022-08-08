@@ -3,7 +3,7 @@
     "description": "Allows to use Swetrix Analytics with Shopware",
     "version": "1.0.0",
     "type": "shopware-platform-plugin",
-    "license": "AGPL-3.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Swetrix"
