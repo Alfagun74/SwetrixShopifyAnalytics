@@ -6,5 +6,5 @@
 
 {% block base_head %}
 	{{ parent() }}
-    <template data-swetrix-shopware-integration data-swetrix-shopware-integration-options='{{ examplePluginOptions|json_encode }}'></template>
+    <template data-swetrix-shopware-integration data-swetrix-shopware-integration-options='{{ swetrixShopwareIntegrationOptions|json_encode }}'></template>
 {% endblock %}
