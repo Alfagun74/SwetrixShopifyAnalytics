@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace SwetrixShopwareIntegration;
+namespace Swetrix\ShopwareIntegration;
 
 use Shopware\Core\Framework\Plugin;
 

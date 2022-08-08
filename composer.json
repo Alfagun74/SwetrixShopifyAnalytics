@@ -18,7 +18,7 @@
     "shopware/core": "6.4.*"
   },
   "extra": {
-    "shopware-plugin-class": "SwetrixShopwareIntegration\\SwetrixShopwareIntegration",
+    "shopware-plugin-class": "Swetrix\\ShopwareIntegration\\SwetrixShopwareIntegration",
     "plugin-icon": "src/Resources/config/icon.png",
     "label": {
       "de-DE": "Swetrix Analytics für Shopware",
@@ -35,7 +35,7 @@
   },
   "autoload": {
     "psr-4": {
-      "SwetrixShopwareIntegration\\": "src/"
+      "Swetrix\\ShopwareIntegration\\": "src/"
     }
   }
 }
