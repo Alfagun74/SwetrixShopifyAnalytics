@@ -1,6 +1,6 @@
 {
-    "name": "swetrix/shopware-analytics",
-    "description": "Allows to use Swetrix Analytics with Shopware",
+    "name": "swetrix/shopware-integration",
+    "description": "Swetrix Analytics for Shopware",
     "version": "1.0.0",
     "type": "shopware-platform-plugin",
     "license": "MIT",
@@ -16,19 +16,19 @@
         "shopware/core": "6.4.*"
     },
     "extra": {
-        "shopware-plugin-class": "Swetrix\\ShopwareAnalytics\\SwetrixShopwareAnalytics",
+        "shopware-plugin-class": "Swetrix\\ShopwareIntegration\\SwetrixShopwareIntegration",
         "label": {
             "de-DE": "Swetrix Analytics für Shopware",
             "en-GB": "Swetrix Analytics for Shopware"
         },
         "description": {
-            "de-DE": "Mit diesem Plugin können sie das Verhalten ihrer Kunden mittels Swetrix Analytics tracken.",
-            "en-GB": "This Plugin allows you to track your customer behaviour using Swetrix Analytics."
+            "de-DE": "Mit diesem Plugin kannst du Swetrix Analytics in deinen Shop einbinden.",
+            "en-GB": "This Plugin allows you to integrate Swetrix Analytics into your Shop."
         }
     },
     "autoload": {
         "psr-4": {
-            "Swetrix\\ShopwareAnalytics\\": "src/"
+            "Swetrix\\ShopwareIntegration\\": "src/"
         }
     }
 }
