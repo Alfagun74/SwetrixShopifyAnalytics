@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Swetrix Configuration</title>
+        <title lang="de-DE">Swetrix Einstellungen</title>
+        <input-field type="text">
+            <name>project-id</name>
+            <label>Swetrix Project ID</label>
+            <label lang="de-DE">Swetrix Projekt ID</label>
+            <defaultValue>123456789</defaultValue>
+            <copyable>true</copyable>
+            <helpText>You can find your Project ID in your Project Settings in the Swetrix Dashboard.</helpText>
+            <helpText lang="de-DE">Du findest deine Projekt-Id in den Projekteinstellungen im Swetrix Dashboard.</helpText>
+        </input-field>
+    </card>
+</config>
