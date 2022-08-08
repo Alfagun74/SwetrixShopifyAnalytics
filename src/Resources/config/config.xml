@@ -5,7 +5,7 @@
         <title>Swetrix Configuration</title>
         <title lang="de-DE">Swetrix Einstellungen</title>
         <input-field type="text">
-            <name>project-id</name>
+            <name>SwetrixShopwareIntegrationProjectId</name>
             <label>Swetrix Project ID</label>
             <label lang="de-DE">Swetrix Projekt ID</label>
             <defaultValue>123456789</defaultValue>

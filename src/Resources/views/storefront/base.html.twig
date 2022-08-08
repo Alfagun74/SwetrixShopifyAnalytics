@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% set swetrixShopwareIntegrationOptions = {
+    projectId: config('SwetrixShopwareIntegration.config.SwetrixShopwareIntegrationProjectId')
+} %}
+
+{% block base_head %}
+	{{ parent() }}
+    <template data-swetrix-shopware-integration data-swetrix-shopware-integration-options='{{ examplePluginOptions|json_encode }}'></template>
+{% endblock %}
